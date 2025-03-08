@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/LearnAssist.Modules.Courses.Api.props" />
+</Project>

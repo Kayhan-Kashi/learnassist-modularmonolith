@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "N8u2QS2C7+oe9pmk7GoLaZMF9FDoRlUpXwBIN15O8TM=",
+  "Source": "LearnAssist.Modules.Courses.Api",
+  "BasePath": "_content/LearnAssist.Modules.Courses.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

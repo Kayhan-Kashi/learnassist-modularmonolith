@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{052E5D61-3538-4A3B-AB9E-86E46C9C05A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CFE586FD-8F50-4D9F-9F00-6B637B73E125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAssist.Api", "src\API\LearnAssist.Api\LearnAssist.Api.csproj", "{BE367052-18B2-4E8F-AA94-B74559AE3877}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C342F970-650E-4D08-9718-162FCB028713}"
+	ProjectSection(SolutionItems) = preProject
+		..\Directory.Build.props = ..\Directory.Build.props
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{53D66DF8-D5C7-40D5-9734-161EA4E2EA24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Courses", "Courses", "{8571600E-8C3A-4AEC-81AF-BD586C26D1DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAssist.Modules.Courses.Api", "src\Modules\Courses\LearnAssist.Modules.Courses.Api\LearnAssist.Modules.Courses.Api.csproj", "{A9BF349D-4E27-47A9-B15F-8C743723830F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker-Compose", "Docker-Compose", "{FDF3B1E3-223D-4E91-AC79-89E5CB6AB07E}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		docker-compose.override.yml = docker-compose.override.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE367052-18B2-4E8F-AA94-B74559AE3877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE367052-18B2-4E8F-AA94-B74559AE3877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE367052-18B2-4E8F-AA94-B74559AE3877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE367052-18B2-4E8F-AA94-B74559AE3877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9BF349D-4E27-47A9-B15F-8C743723830F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BF349D-4E27-47A9-B15F-8C743723830F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BF349D-4E27-47A9-B15F-8C743723830F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BF349D-4E27-47A9-B15F-8C743723830F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFE586FD-8F50-4D9F-9F00-6B637B73E125} = {052E5D61-3538-4A3B-AB9E-86E46C9C05A1}
+		{BE367052-18B2-4E8F-AA94-B74559AE3877} = {CFE586FD-8F50-4D9F-9F00-6B637B73E125}
+		{53D66DF8-D5C7-40D5-9734-161EA4E2EA24} = {052E5D61-3538-4A3B-AB9E-86E46C9C05A1}
+		{8571600E-8C3A-4AEC-81AF-BD586C26D1DA} = {53D66DF8-D5C7-40D5-9734-161EA4E2EA24}
+		{A9BF349D-4E27-47A9-B15F-8C743723830F} = {8571600E-8C3A-4AEC-81AF-BD586C26D1DA}
+	EndGlobalSection
+EndGlobal
