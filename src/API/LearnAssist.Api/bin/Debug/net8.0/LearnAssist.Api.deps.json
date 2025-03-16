@@ -8,13 +8,22 @@
     ".NETCoreApp,Version=v8.0": {
       "LearnAssist.Api/1.0.0": {
         "dependencies": {
-          "LearnAssist.Modules.Courses.Api": "1.0.0",
+          "LearnAssist.Modules.Courses.Infrastructure": "1.0.0",
+          "LearnAssist.Modules.Courses.Presentation": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.12",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
           "LearnAssist.Api.dll": {}
+        }
+      },
+      "Dapper/2.1.66": {
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.66.48463"
+          }
         }
       },
       "EFCore.NamingConventions/9.0.0": {
@@ -35,6 +44,26 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MediatR/12.4.1": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.4.1.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -725,15 +754,39 @@
         }
       },
       "System.Threading.Channels/7.0.0": {},
-      "LearnAssist.Modules.Courses.Api/1.0.0": {
+      "LearnAssist.Modules.Courses.Application/1.0.0": {
         "dependencies": {
-          "EFCore.NamingConventions": "9.0.0",
-          "Microsoft.AspNetCore.OpenApi": "8.0.12",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.2",
-          "Swashbuckle.AspNetCore": "6.6.2"
+          "Dapper": "2.1.66",
+          "LearnAssist.Modules.Courses.Domain": "1.0.0",
+          "MediatR": "12.4.1"
         },
         "runtime": {
-          "LearnAssist.Modules.Courses.Api.dll": {}
+          "LearnAssist.Modules.Courses.Application.dll": {}
+        }
+      },
+      "LearnAssist.Modules.Courses.Domain/1.0.0": {
+        "runtime": {
+          "LearnAssist.Modules.Courses.Domain.dll": {}
+        }
+      },
+      "LearnAssist.Modules.Courses.Infrastructure/1.0.0": {
+        "dependencies": {
+          "EFCore.NamingConventions": "9.0.0",
+          "LearnAssist.Modules.Courses.Application": "1.0.0",
+          "LearnAssist.Modules.Courses.Domain": "1.0.0",
+          "LearnAssist.Modules.Courses.Presentation": "1.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.2"
+        },
+        "runtime": {
+          "LearnAssist.Modules.Courses.Infrastructure.dll": {}
+        }
+      },
+      "LearnAssist.Modules.Courses.Presentation/1.0.0": {
+        "dependencies": {
+          "LearnAssist.Modules.Courses.Application": "1.0.0"
+        },
+        "runtime": {
+          "LearnAssist.Modules.Courses.Presentation.dll": {}
         }
       }
     }
@@ -743,6 +796,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.1.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "path": "dapper/2.1.66",
+      "hashPath": "dapper.2.1.66.nupkg.sha512"
     },
     "EFCore.NamingConventions/9.0.0": {
       "type": "package",
@@ -757,6 +817,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MediatR/12.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0tLxCgEC5+r1OCuumR3sWyiVa+BMv3AgiU4+pz8xqTc+2q1WbUEXFOr7Orm96oZ9r9FsldgUtWvB2o7b9jDOaw==",
+      "path": "mediatr/12.4.1",
+      "hashPath": "mediatr.12.4.1.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/8.0.12": {
       "type": "package",
@@ -1108,7 +1182,22 @@
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
-    "LearnAssist.Modules.Courses.Api/1.0.0": {
+    "LearnAssist.Modules.Courses.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LearnAssist.Modules.Courses.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LearnAssist.Modules.Courses.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LearnAssist.Modules.Courses.Presentation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

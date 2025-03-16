@@ -1,0 +1,12 @@
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/bin/Debug/net8.0/LearnAssist.Modules.Courses.Domain.deps.json
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/bin/Debug/net8.0/LearnAssist.Modules.Courses.Domain.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/bin/Debug/net8.0/LearnAssist.Modules.Courses.Domain.pdb
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/LearnAssist.Modules.Courses.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/LearnAssist.Modules.Courses.Domain.AssemblyInfoInputs.cache
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/LearnAssist.Modules.Courses.Domain.AssemblyInfo.cs
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/LearnAssist.Modules.Courses.Domain.csproj.CoreCompileInputs.cache
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/LearnAssist.Modules.Courses.Domain.sourcelink.json
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/LearnAssist.Modules.Courses.Domain.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/refint/LearnAssist.Modules.Courses.Domain.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/LearnAssist.Modules.Courses.Domain.pdb
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/Debug/net8.0/ref/LearnAssist.Modules.Courses.Domain.dll

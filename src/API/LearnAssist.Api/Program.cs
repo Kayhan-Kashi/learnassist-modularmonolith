@@ -1,5 +1,5 @@
-using LearnAssist.Api.Extensions;
-using LearnAssist.Modules.Courses.Api.Courses;
+
+using LearnAssist.Modules.Courses.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +16,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.ApplyMigrations();
+    //app.ApplyMigrations();
 }
 
 app.UseHttpsRedirection();

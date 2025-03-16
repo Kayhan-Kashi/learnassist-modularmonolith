@@ -17,7 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Modules\Courses\LearnAssist.Modules.Courses.Api\LearnAssist.Modules.Courses.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Courses\LearnAssist.Modules.Courses.Infrastructure\LearnAssist.Modules.Courses.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Courses\LearnAssist.Modules.Courses.Presentation\LearnAssist.Modules.Courses.Presentation.csproj" />
   </ItemGroup>
 
   <ItemGroup>

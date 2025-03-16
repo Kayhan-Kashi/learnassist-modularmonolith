@@ -47,9 +47,6 @@
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/Npgsql.dll
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
-/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Api.deps.json
-/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Api.runtimeconfig.json
-/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Api
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/Humanizer.dll
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/Microsoft.Build.Locator.dll
@@ -137,5 +134,15 @@
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
-/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Api.dll
-/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Api.pdb
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/obj/Debug/net8.0/LearnAssist.Api.sourcelink.json
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/MediatR.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/MediatR.Contracts.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Application.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Domain.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Infrastructure.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Presentation.dll
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Presentation.pdb
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Application.pdb
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Domain.pdb
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/LearnAssist.Modules.Courses.Infrastructure.pdb
+/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api/bin/Debug/net8.0/Dapper.dll

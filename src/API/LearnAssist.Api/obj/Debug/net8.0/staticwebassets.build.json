@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "/FjXuak017a3hmVZt1VHikjmz1d8TLwrKueI48VJX1o=",
+  "Hash": "Ggrr5gHOB5WOEDWOz7KxeBKfyuKoNmWMw4GBX2+DXdY=",
   "Source": "LearnAssist.Api",
   "BasePath": "_content/LearnAssist.Api",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Api/LearnAssist.Modules.Courses.Api.csproj",
-      "Version": 2,
-      "Source": "LearnAssist.Modules.Courses.Api",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }
