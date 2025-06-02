@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6L0vdn3gwYs=",
+  "dgSpecHash": "35vaGLucvUQ=",
   "success": true,
-  "projectFilePath": "/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Infrastructure/LearnAssist.Modules.Courses.Infrastructure.csproj",
+  "projectFilePath": "/home/kayhan/RiderProjects/learnassist-modularmonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Infrastructure/LearnAssist.Modules.Courses.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/kayhan/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
     "/home/kayhan/.nuget/packages/efcore.namingconventions/9.0.0/efcore.namingconventions.9.0.0.nupkg.sha512",
+    "/home/kayhan/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/home/kayhan/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.0.0/fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
     "/home/kayhan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/kayhan/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/home/kayhan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",

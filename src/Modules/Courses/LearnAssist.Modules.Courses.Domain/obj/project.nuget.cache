@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J6ySazRdiXs=",
+  "dgSpecHash": "DDein2pyrVg=",
   "success": true,
-  "projectFilePath": "/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/LearnAssist.Modules.Courses.Domain.csproj",
+  "projectFilePath": "/home/kayhan/RiderProjects/learnassist-modularmonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/LearnAssist.Modules.Courses.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

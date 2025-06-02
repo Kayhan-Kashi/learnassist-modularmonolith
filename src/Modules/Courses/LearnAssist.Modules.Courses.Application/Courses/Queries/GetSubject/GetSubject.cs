@@ -19,12 +19,12 @@ internal sealed class GetSubjectQueryHandler(IDbConnectionFactory dbConnectionFa
                 SELECT 
                     id as {nameof(SubjectResponse.Id)},
                     name as {nameof(SubjectResponse.Name)},
-                    description as {nameof(SubjectResponse.Description)},
-                FROM courses
+                    description as {nameof(SubjectResponse.Description)}
+                FROM courses.subjects
                 WHERE id = @Id
             """;
 
-        SubjectResponse? subject = await connection.QuerySingleOrDefaultAsync(sql, request);
+        SubjectResponse? subject = await connection.QuerySingleOrDefaultAsync<SubjectResponse>(sql, request);
         return subject;
     }
 }

@@ -2,7 +2,7 @@
 services:
   learnassist.api:
     build:
-      context: "/home/kayhan/Projects/LearnAssist-ModularMonolith"
+      context: "/home/kayhan/RiderProjects/learnassist-modularmonolith"
       dockerfile: "src/API/LearnAssist.Api/Dockerfile"
       target: "base"
     command: []
@@ -15,7 +15,7 @@ services:
     image: "learnassistapi:dev"
     ports: []
     volumes:
-    - "/home/kayhan/Projects/LearnAssist-ModularMonolith/src/API/LearnAssist.Api:/app:rw"
-    - "/home/kayhan/Projects/LearnAssist-ModularMonolith:/src:rw"
+    - "/home/kayhan/RiderProjects/learnassist-modularmonolith/src/API/LearnAssist.Api:/app:rw"
+    - "/home/kayhan/RiderProjects/learnassist-modularmonolith:/src:rw"
     - "/home/kayhan/.nuget/packages:/home/app/.nuget/packages"
     working_dir: "/app"

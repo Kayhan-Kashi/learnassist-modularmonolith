@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8Z5WrPActGo=",
+  "dgSpecHash": "n2xXglQzYPg=",
   "success": true,
-  "projectFilePath": "/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Presentation/LearnAssist.Modules.Courses.Presentation.csproj",
+  "projectFilePath": "/home/kayhan/RiderProjects/learnassist-modularmonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Presentation/LearnAssist.Modules.Courses.Presentation.csproj",
   "expectedPackageFiles": [
     "/home/kayhan/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
+    "/home/kayhan/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
     "/home/kayhan/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/home/kayhan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/kayhan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"

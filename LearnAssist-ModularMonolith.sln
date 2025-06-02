@@ -9,12 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CFE586FD-8F5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAssist.Api", "src\API\LearnAssist.Api\LearnAssist.Api.csproj", "{BE367052-18B2-4E8F-AA94-B74559AE3877}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C342F970-650E-4D08-9718-162FCB028713}"
-	ProjectSection(SolutionItems) = preProject
-		..\Directory.Build.props = ..\Directory.Build.props
-		.editorconfig = .editorconfig
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{53D66DF8-D5C7-40D5-9734-161EA4E2EA24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Courses", "Courses", "{8571600E-8C3A-4AEC-81AF-BD586C26D1DA}"

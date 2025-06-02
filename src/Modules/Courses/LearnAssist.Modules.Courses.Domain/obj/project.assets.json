@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/LearnAssist.Modules.Courses.Domain.csproj",
+      "projectUniqueName": "/home/kayhan/RiderProjects/learnassist-modularmonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/LearnAssist.Modules.Courses.Domain.csproj",
       "projectName": "LearnAssist.Modules.Courses.Domain",
-      "projectPath": "/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/LearnAssist.Modules.Courses.Domain.csproj",
+      "projectPath": "/home/kayhan/RiderProjects/learnassist-modularmonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/LearnAssist.Modules.Courses.Domain.csproj",
       "packagesPath": "/home/kayhan/.nuget/packages/",
-      "outputPath": "/home/kayhan/Projects/LearnAssist-ModularMonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/",
+      "outputPath": "/home/kayhan/RiderProjects/learnassist-modularmonolith/src/Modules/Courses/LearnAssist.Modules.Courses.Domain/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
